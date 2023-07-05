@@ -1,0 +1,145 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Parte principale*/
+main {
+margin: 25px auto 25px auto; 
+width: 75%;
+max-width: 800px;
+background-color: rgba(0, 0, 0, 0.5) ;
+display: flex; 
+flex-direction: column;
+align-items: center;
+min-height: 300px;
+border-radius: 10px;
+}
+
+/*Header con logo e immagine*/
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px; 
+}
+
+.header img {
+    width: 150px; 
+    margin: 0 auto 0 auto; 
+}
+
+.header h1 {
+    font-size: 20px; 
+    color: #57f01aec ; 
+    font-weight: 500;
+    margin: 0 auto; 
+}
+
+/*Barra di prenotazione*/
+.reservation {
+    background-color: #57f01aec;
+    width: 80%; 
+    min-height: 20px;
+    margin: 5px auto 3px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    margin: 0 5px 0 5px; 
+    width:fit-content ;
+    font-size: 9px;
+}
+
+button:hover {
+    background-color: #57f01aec;
+    transform: scale(1.1) ;
+}
+
+/*Sezione Informazioni sui monopattini*/
+h2, p {
+    color: #ffffff; 
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%; 
+    margin-bottom: 85px;  
+}
+
+.bar {
+    height: 20px;
+    border-radius: 5px ;
+}
+
+input:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*Monopattino Gino22*/
+.Gino22 {
+    padding: 5px 0 5px 0; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    width: 100%; 
+}
+.Gino22 p {
+    margin: 0; 
+    font-size: 12px;
+}
+.Gino22 .bar {
+    background-color: #eeaa51ec;
+    width: 40%;
+}
+
+/*Monopattino Mike24*/
+.Mike24 {
+    padding: 5px 0 5px 0; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    width: 100%; 
+}
+.Mike24 p {
+    margin: 0; 
+    font-size: 12px;
+}
+.Mike24 .bar {
+    background-color: #57f01aec;
+    width: 70%; 
+}
+
+/*Monopattino Fede154*/
+.Fede154 {
+    padding: 5px 0 5px 0; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    width: 100%; 
+}
+.Fede154 p {
+    margin: 0; 
+    font-size: 12px;
+}
+.Fede154 .bar {
+    background-color: #ce5353df;
+    width: 20%; 
+}
